@@ -90,7 +90,7 @@ Please cite this work if you find it useful:.
 
  @article{zhou2022hypergraph,
   title={Hypergraph Transformer for Skeleton-based Action Recognition},
-  author={Zhou, Yuxuan and Li, Chao and Cheng, Zhi-Qi and Geng, Yifeng and Xie, Xuansong and Keuper, Margret},
+  author={Zhou, Yuxuan and Cheng, Zhi-Qi and Li, Chao and Geng, Yifeng and Xie, Xuansong and Keuper, Margret},
   journal={arXiv preprint arXiv:2211.09590},
   year={2022}
 }
