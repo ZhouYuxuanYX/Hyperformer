@@ -72,19 +72,25 @@ Put downloaded data into the following directory structure:
 # Training & Testing
 
 ### Training
+
 '''
 bash train.sh
 '''
+
 Find the configuration for different modalities in the config directory.
 
 ### Testing
+
 '''
 bash evaluate.sh
 '''
+
 To ensemble the results of different modalities, run the following command:
+
 '''
 bash ensemble.sh
 '''
+
 ## Acknowledgements
 
 This repo is based on [2s-AGCN](https://github.com/lshiwjx/2s-AGCN) and [CTR-GCN](https://github.com/Uason-Chen/CTR-GCN). The data processing is borrowed from [SGN](https://github.com/microsoft/SGN) and [HCN](https://github.com/huguyuehuhu/HCN-pytorch).
