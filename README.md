@@ -77,7 +77,7 @@ Put downloaded data into the following directory structure:
 bash train.sh
 ```
 
-Find the configuration for different modalities in the config directory.
+Please check the configuration in the config directory.
 
 ### Testing
 
