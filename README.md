@@ -1,6 +1,9 @@
 # Hypergraph-Transformer-for-Skeleton-based-Action-Recognition
 This is the official implementation of our paper [Hypergraph Transformer for Skeleton-based Action Recognition.](https://arxiv.org/pdf/2211.09590.pdf)
 
+## Attention on Hypergraph
+![image](hypergraph_tease_image_new.png)
+
 ## Hyperformer architecture
 ![image](hyperformer.png)
 
