@@ -3,12 +3,12 @@ This is the official implementation of our paper [Hypergraph Transformer for Ske
 
 ## Attention on Hypergraph
 <p align="center">
-   <img src="hypergraph_tease_image_new.png" alt="drawing" width="400"/>
+   <img src="hypergraph_tease_image_new.png" alt="drawing" width="450"/>
 </p>
 
 ## Hyperformer architecture
 <p align="center">
-   <img src="hyperformer.png" alt="drawing" width="600"/>
+   <img src="hyperformer.png" alt="drawing" width="700"/>
 </p>
 
 # Data Preparation
