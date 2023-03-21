@@ -2,10 +2,12 @@
 This is the official implementation of our paper [Hypergraph Transformer for Skeleton-based Action Recognition.](https://arxiv.org/pdf/2211.09590.pdf)
 
 ## Attention on Hypergraph
-<img src="hypergraph_tease_image_new.png" alt="drawing" width="600"/>
+<p align="center">
+   <img src="hypergraph_tease_image_new.png" alt="drawing" width="500"/>
+</p>
 
 ## Hyperformer architecture
-<img src="hyperformer.png" alt="drawing" width="1000"/>
+<img src="hyperformer.png" alt="drawing" width="800"/>
 
 # Data Preparation
 
