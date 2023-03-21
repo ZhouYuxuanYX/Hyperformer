@@ -8,7 +8,7 @@ This is the official implementation of our paper [Hypergraph Transformer for Ske
 
 ## Hyperformer architecture
 <p align="center">
-   <img src="hyperformer.png" alt="drawing" width="750"/>
+   <img src="hyperformer.png" alt="drawing" width="800"/>
 </p>
 
 # Data Preparation
