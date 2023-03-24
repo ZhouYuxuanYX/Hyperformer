@@ -4,7 +4,8 @@ import torch.nn as nn
 import torch.nn.functional as F
 import numpy as np
 
-
+### torch version too old for timm
+### https://github.com/rwightman/pytorch-image-models/blob/master/timm/models/layers
 def drop_path(x, drop_prob: float = 0., training: bool = False, scale_by_keep: bool = True):
     """Drop paths (Stochastic Depth) per sample (when applied in main path of residual blocks).
     This is the same as the DropConnect impl I created for EfficientNet, etc networks, however,
