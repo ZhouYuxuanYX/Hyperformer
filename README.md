@@ -3,7 +3,7 @@ This is the official implementation of our paper [Hypergraph Transformer for Ske
 
 ## Attention on Hypergraph
 <p align="center">
-   <img src="hypergraph_tease_image_new.png" alt="drawing" width="540"/>
+   <img src="hypergraph_tease_image_new.png" alt="drawing" width="560"/>
 </p>
 
 ## Hyperformer architecture
