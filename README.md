@@ -97,22 +97,18 @@ This repo is based on [2s-AGCN](https://github.com/lshiwjx/2s-AGCN) and [CTR-GCN
 
 Thanks to the original authors for their work!
 
-# Citation
+## Citation
 
-Please cite this work if you find it useful:.
-
+Please cite this work if you find it useful:
+````BibTeX
  @article{zhou2022hypergraph,
   title={Hypergraph Transformer for Skeleton-based Action Recognition},
   author={Zhou, Yuxuan and Cheng, Zhi-Qi and Li, Chao and Geng, Yifeng and Xie, Xuansong and Keuper, Margret},
   journal={arXiv preprint arXiv:2211.09590},
   year={2022}
 }
+````
 
 # Contact
 For any questions, feel free to contact: `zhouyuxuanyx@gmail.com`
-
-
-
-
-
 
