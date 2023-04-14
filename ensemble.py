@@ -26,6 +26,14 @@ if __name__ == "__main__":
     arg = parser.parse_args()
 
     dataset = arg.dataset
+    
+    if 'ntu' in arg.dataset:
+     ## ntu
+        arg.alpha = [0.4, 0.6, 0.2, 0.2]
+    elif 'UCLA' in arg.dataset:
+         # ucla
+        arg.alpha = [0.4, 0.4, 0.3, 0.2]    
+    
     if 'UCLA' in arg.dataset:
         label = []
         with open('./data/' + 'NW-UCLA/' + '/val_label.pkl', 'rb') as f:
@@ -66,13 +74,7 @@ if __name__ == "__main__":
     right_num = total_num = right_num_5 = 0
 
     if arg.joint_motion_dir is not None and arg.bone_motion_dir is not None:
-
-        ## ntu
-        arg.alpha = [0.4, 0.6, 0.2, 0.2]
-
-        # ucla
-        # arg.alpha = [0.4, 0.4, 0.3, 0.2]
-
+        
         for i in tqdm(range(len(label))):
             l = label[i]
             _, r11 = r1[i]
