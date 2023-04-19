@@ -68,6 +68,8 @@ Put downloaded data into the following directory structure:
  python seq_transformation.py
 ```
 
+# Pretrained model
+We provide the [pretrained model weights](https://github.com/ZhouYuxuanYX/Hyperformer/releases/download/pretrained_weights/hyperformer_pretrained_weights.zip) on NTURGB+D 60 and NTURGB+D 120 benchmarks.
 
 # Training & Testing
 
