@@ -69,7 +69,7 @@ Put downloaded data into the following directory structure:
 ```
 
 # Pretrained model
-We provide the [pretrained model weights](https://github.com/ZhouYuxuanYX/Hyperformer/releases/download/pretrained_weights/hyperformer_pretrained_weights.zip) on NTURGB+D 60 and NTURGB+D 120 benchmarks.
+We provide the [pretrained model weights](https://github.com/ZhouYuxuanYX/Hyperformer/releases/download/pretrained_weights/hyperformer_pretrained_weights.zip) for NTURGB+D 60 and NTURGB+D 120 benchmarks.
 
 # Training & Testing
 
