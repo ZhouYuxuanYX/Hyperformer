@@ -11,7 +11,9 @@ This is the official implementation of our paper [Hypergraph Transformer for Ske
    <img src="hyperformer.png" alt="drawing" width="800"/>
 </p>
 
-# Data Preparation
+# Preparation
+### Install torchlight
+Run 'pip install -e torchlight'
 
 ### Download datasets.
 
