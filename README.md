@@ -13,7 +13,7 @@ This is the official implementation of our paper [Hypergraph Transformer for Ske
 
 # Preparation
 ### Install torchlight
-Run 'pip install -e torchlight'
+Run `pip install -e torchlight`
 
 ### Download datasets.
 
