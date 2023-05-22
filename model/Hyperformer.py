@@ -471,7 +471,7 @@ class TCN_ViT_unit(nn.Module):
 
 class Model(nn.Module):
     def __init__(self, num_class=60, num_point=20, num_person=2, graph=None, graph_args=dict(), in_channels=3,
-                 drop_out=0, num_of_heads=9, joint_label=[]):
+                 drop_out=0, num_of_heads=9, joint_label=[], **kwargs):
         super(Model, self).__init__()
 
         if graph is None:
