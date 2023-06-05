@@ -4,13 +4,13 @@ This is the official implementation of our paper [Hypergraph Transformer for Ske
 ## Excellent Efficiency
 | Model | Parameters | FLOPs | Training Time/Epoch | Accuracy |
 | -------- | ------- | -------- | ------- | -------- |
-| ST-TR | 12.1M | 259.4G | 11m48s | 89.9 |
-| DSTA | 4.1M | 64.7G |  10m36s | 91.5 | 
-| Efficient-GCN-B4 | 2.0M | 15.2G* | 15m37s* | 91.7* |
+| [ST-TR](https://github.com/Chiaraplizz/ST-TR) | 12.1M | 259.4G | 11m48s | 89.9 |
+| [DSTA](https://github.com/lshiwjx/DSTA-Net) | 4.1M | 64.7G |  10m36s | 91.5 | 
+| [Efficient-GCN-B4*](https://github.com/yfsong0709/EfficientGCNv1) | 2.0M | 15.2G* | 15m37s* | 91.7* |
 | Hyperformer | 2.6M | 14.8G | 6m52s | 92.9 |
 
 Remark: Comparing computation budget under the same setting
-(1 Tesla V100, 64 batch size, etc.) on NTU RGB+D 60 Cross-Subject Benchmark. *EfficientNet-B4
+(1 Tesla V100-32GB, 64 batch size, etc.) on NTU RGB+D 60 Cross-Subject Benchmark. *EfficientNet-B4
 requires 4 times higher temporal resolution (288 vs 64 frames) and
 thus 2 GPUs to fit into memory and reach their reported accuracy.
 
